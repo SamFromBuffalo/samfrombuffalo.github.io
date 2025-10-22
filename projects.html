@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Sam’s Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Sam’s Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <!-- 3D Environments -->
+    <div class="medium-section">
+      <h3>3D Environments Created in Maya</h3>
+      <div class="gallery">
+        <div class="art-piece" data-title="The Start of the End" data-materials="Modeled and textured in Maya, rendered with Arnold">
+          <img src="images/destroyedcitysnap.jpg" alt="The Start Of the End">
+        </div>
+        <div class="art-piece" data-title="Western World" data-materials="Modeled in Maya, textures made in Substance Painter, rendered with Arnold">
+          <img src="images/Western_LS_Scene.jpg" alt="Western World">
+        </div>
+        <div class="art-piece" data-title="Bunker" data-materials="Modeled and textured in Maya, rendered with Arnold">
+          <img src="images/falloutrender.jpg" alt="Bunker">
+        </div>
+        <div class="art-piece" data-title="Recreated Still Images" data-materials="Modeled in Maya, textures made in Substance Painter, rendered with Arnold">
+          <img src="images/New_still_render.jpeg" alt="Recreated Still images">
+        </div>
+      </div>
+    </div>
+
+    <!-- Murals -->
+    <div class="medium-section">
+      <h3>Murals</h3>
+      <div class="gallery">
+        <div class="art-piece" data-title="Sigma Chi Eagle" data-materials="Sketched with pencil, painted with exterior acrylic paint on brick wall">
+          <img src="images/Eagel_mural.jpeg" alt="Sigma Chi Eagle">
+        </div>
+        <div class="art-piece" data-title="What's New" data-materials="Sketched with pencil, painted with exterior acrylic paint on brick wall">
+          <img src="images/Zyn's_mural.jpeg" alt="What's New">
+        </div>
+      </div>
+    </div>
+
+<!-- Drawings & Pen -->
+    <div class="medium-section">
+      <h3>Pen and Pencil</h3>
+      <div class="gallery">
+        <div class="art-piece" data-title="New Hope" data-materials="Stippled with a ball point pen on 18x24 inch sketch paper">
+          <img src="images/new_hope.jpeg" alt="New Hope">
+        </div>
+        <div class="art-piece" data-title="Family" data-materials="Graphite pencial and eraser on 9X12 inch sketch paper">
+          <img src="images/art_drawing.jpg" alt="Family">
+        </div>
+      </div>
+    </div>
+
+    <!-- Paintings -->
+    <div class="medium-section">
+      <h3>Paintings</h3>
+      <div class="gallery">
+        <div class="art-piece" data-title="The Little Things" data-materials="realism, Arcylic paint, on 24x20 inch canvas">
+          <img src="images/Emily_painting.jpg" alt="The Little Things">
+        </div>
+        <div class="art-piece" data-title="Riley" data-materials="realism, Acrylic paint, on 11x14 inch canvas ">
+          <img src="images/riley_painting.jpg" alt="Riley">
+        </div>
+        <div class="art-piece" data-title="Beauty in Life" data-materials="Realism, arcylice paint, on 12x36 inch canvas">
+          <img src="images/Addy.jpeg" alt="Beauty in Life">
+        </div>
+      </div>
+    </div>
+
+    <!-- Charcoal -->
+    <div class="medium-section">
+      <h3>Charcoal</h3>
+      <div class="gallery">
+        <div class="art-piece" data-title="Not Again" data-materials="vine charcoal, and compressed charcoal with eraser, 10x8 inch on construction paper">
+          <img src="images/Shea.jpeg" alt="Not Again">
+        </div>
+        <div class="art-piece" data-title="Behind the Eyes" data-materials="vine charcoal, and compressed charcoal with eraser, 11x14 inch on construction paper">
+          <img src="images/Aiden.jpeg" alt="Behind the Eyes">
+        </div>
+        <div class="art-piece" data-title="Peace" data-materials="vine charcoal, and compressed charcoal with eraser, 18x24 inch on construction paper">
+          <img src="images/Peace.jpeg" alt="Peace">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="artModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage" alt="" style="width:100%; border-radius:8px; margin-bottom:15px;">
+      <h2 id="modalTitle"></h2>
+      <p id="modalMaterials"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Sam’s Portfolio | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
