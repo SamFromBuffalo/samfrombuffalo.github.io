@@ -1,4 +1,4 @@
-// You can add interactivity here later (lightbox, animations, etc.)
+
 console.log("Portfolio loaded!");
 
 document.addEventListener("DOMContentLoaded", function() {
