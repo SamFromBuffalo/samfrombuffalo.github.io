@@ -244,8 +244,14 @@ footer {
 
 /* Contact Page Styles */
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  justify-content: center;  
   text-align: center;
-  padding: 60px 20px;
+
+  min-height: 100vh;        
+  padding: 40px 20px;
   background-color: #f8f8f8;
 }
 
