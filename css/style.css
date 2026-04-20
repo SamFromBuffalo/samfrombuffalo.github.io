@@ -21,6 +21,9 @@ body {
 /* This allows content to push footer down */
 main {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Header */
@@ -249,8 +252,7 @@ footer {
   align-items: center;      
   justify-content: center;  
   text-align: center;
-
-  min-height: 50vh;        
+      
   padding: 40px 20px;
   background-color: #f8f8f8;
 }
