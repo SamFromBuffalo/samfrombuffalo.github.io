@@ -104,11 +104,12 @@ nav {
 /*  About  */
 .about {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 40px;
   gap: 30px;
-  text-align: left;
+  text-align: center;
   min-height: 100vh;
   padding: 40px;
 }
