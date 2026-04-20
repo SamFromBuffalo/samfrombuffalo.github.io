@@ -108,6 +108,9 @@ nav {
   justify-content: center;
   padding: 40px;
   gap: 30px;
+  text-align: left;
+  min-height: 100vh;
+  padding: 40px;
 }
 
 .profile-pic {
