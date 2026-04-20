@@ -5,12 +5,25 @@
   font-family: "Poppins", sans-serif;
 }
 
+/*  Sticky Footer Setup  */
+html, body {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   background: #f8f8f8;
   color: #333;
   line-height: 1.6;
 }
 
+/* This allows content to push footer down */
+main {
+  flex: 1;
+}
+
+/* Header */
 header {
   background: #222;
   color: #fefefe;
@@ -49,7 +62,9 @@ nav {
   color: #ff6f61;
 }
 
+/*  Hero  */
 .hero {
+  position: relative; 
   background: url("../images/bone_abstract.jpg") center/cover no-repeat;
   color: #edeef0;
   text-align: center;
@@ -63,13 +78,13 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
 .hero-content {
   position: relative;
-  z-index: 2; /* makes sure text appears above overlay */
+  z-index: 2;
 }
 
 .hero-content h2 {
@@ -86,6 +101,7 @@ nav {
   text-decoration: none;
 }
 
+/*  About  */
 .about {
   display: flex;
   align-items: center;
@@ -99,6 +115,7 @@ nav {
   border-radius: 50%;
 }
 
+/*  Projects  */
 .projects {
   padding: 40px;
   text-align: center;
@@ -125,6 +142,7 @@ nav {
   transform: scale(1.05);
 }
 
+/* Contact  */
 .contact {
   padding: 40px;
   text-align: center;
@@ -144,15 +162,15 @@ input, textarea {
   border-radius: 8px;
 }
 
+/*  Footer  */
 footer {
   text-align: center;
   padding: 20px;
   background: #222;
   color: #fff;
-  margin-top: 40px;
 }
 
-/* ===== Modal Styles ===== */
+/*  Modal Styles  */
 .modal {
   display: none;
   position: fixed;
@@ -162,7 +180,7 @@ footer {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  overflow: auto; /* allows scroll if content is still too large */
+  overflow: auto;
 }
 
 .modal-content {
@@ -177,17 +195,15 @@ footer {
   animation: fadeIn 0.3s ease-in-out;
 }
 
-/* Make modal images responsive */
 .modal-content img {
   width: 100%;
   height: auto;
-  max-height: 70vh; /* ensures image fits vertically */
+  max-height: 70vh;
   object-fit: contain;
   border-radius: 8px;
   margin-bottom: 15px;
 }
 
-/* Title and text */
 .modal-content h2 {
   color: #333;
   margin-bottom: 10px;
@@ -212,13 +228,12 @@ footer {
   color: #000;
 }
 
-/* Smooth fade-in animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ===== Contact Page Styles ===== */
+/* Contact Page Styles */
 .contact {
   text-align: center;
   padding: 60px 20px;
@@ -242,7 +257,7 @@ footer {
   gap: 15px;
 }
 
-/* Instagram button */
+/* Social button */
 .social-button {
   display: inline-flex;
   align-items: center;
@@ -258,15 +273,14 @@ footer {
 }
 
 .social-button:hover {
-  background-color: #C13584; /* darker pink hover */
+  background-color: #C13584;
 }
 
 .social-button i {
   font-size: 1.4em;
 }
 
-/* engineering stuff */
-
+/* Engineering Section */
 .engineering {
   padding: 60px 20px;
   text-align: center;
