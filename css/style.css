@@ -250,7 +250,7 @@ footer {
   justify-content: center;  
   text-align: center;
 
-  min-height: 100vh;        
+  min-height: 50vh;        
   padding: 40px 20px;
   background-color: #f8f8f8;
 }
@@ -269,7 +269,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 /* Social button */
