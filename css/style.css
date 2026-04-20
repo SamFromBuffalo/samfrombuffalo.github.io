@@ -114,9 +114,14 @@ nav {
   padding: 40px;
 }
 
+.about-text {
+  max-width: 600px;
+}
+
 .profile-pic {
   width: 200px;
   border-radius: 50%;
+  Margin-bottom: 10px;
 }
 
 /*  Projects  */
