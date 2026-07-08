@@ -38,7 +38,8 @@ The website was built as a static website using HTML, CSS, and JavaScript while 
 portfolio-website/
 │
 ├── index.html          # Home page
-├── projects.html       # Portfolio projects
+├── projects.html       # Art projects
+├── engineering.html    # Software projects
 ├── contact.html        # Contact information
 ├── style.css           # Website styling
 ├── script.js           # Interactive JavaScript
